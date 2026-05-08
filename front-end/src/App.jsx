@@ -3,6 +3,7 @@ import {Main} from './components/Main'
 import { Aside } from './components/Aside'
 import {Container} from './components/Container'
 import { SearchInput } from './components/SearchInput'
+import { Tipography } from './components/Tipography'
 
 function App() {
 
@@ -10,9 +11,15 @@ function App() {
     <Container>
       <Aside />
       <Main>
-        <SearchInput>
-
-        </SearchInput>
+        <SearchInput />
+        <div>
+          <Tipography>
+            Olá, user!
+          </Tipography>
+          <Tipography>
+            Veja como estão suas finanças hoje.
+          </Tipography>
+        </div>
       </Main>
     </Container>
   )
