@@ -11,6 +11,7 @@ import { SavingStatus } from './components/SavingStatus'
 
 import styles from './app.module.css'
 import { Transactions } from './components/Transactions'
+import { MyAccounts } from './components/MyAccounts'
 
 function App() {
 
@@ -69,7 +70,7 @@ function App() {
                 </Tipography>
               </Card.CardHeader>
               <Card.CardBody>
-                <Transactions />
+                <MyAccounts />
               </Card.CardBody>
             </Card>
           </section>

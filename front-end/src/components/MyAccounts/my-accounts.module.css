@@ -5,7 +5,7 @@
     margin-bottom: 48px;
 }
 
-.list li {
+.list li{
     border-bottom: 1px solid var(--neutral-header);
     padding-bottom: 16px;
     margin-bottom: 16px;
