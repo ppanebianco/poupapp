@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    line-height: 125%;
+    font-size: 20px;
+    justify-content: center;
+    color: var(--secondary-income);
+    gap: 8px;
+
+}

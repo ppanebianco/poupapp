@@ -7,9 +7,12 @@ const TAGS = {
 }
 
 export const Tipography = ({children, variant}) => {
+    
+    const Component = TAGS[variant] || 'p'
+    const variantClass = styles[variant] || styles.p
     return (
-        <p className={styles.tipography}>
+        <Component className={variantClass}>
             {children}
-        </p>
+        </Component>
     )
 }
